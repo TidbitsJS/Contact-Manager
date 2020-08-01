@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,67 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+*:focus {
+  outline: none;
+}
+*:active {
+  outline: none;
+}
+
+.card-body {
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 0.9rem;
+    flex-direction: row;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .navbar-brand {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar-nav .nav-link {
+    font-size: 0.75rem;
+    margin-right: 0.1rem;
+  }
+
+  .container h1 {
+    font-size: 2rem;
+  }
+
+  .navbar-brand {
+    margin-left: 1rem;
+    font-size: 0.95rem;
+    color: black !important;
+  }
+
+  .card-body h4 {
+    font-size: 0.9rem;
+  }
+
+  .card .fa-pencil {
+    margin-right: 1rem !important;
+    font-size: 1.2rem;
+  }
+
+  .card .fa-times {
+    font-size: 1.2rem;
+  }
+
+  .card .fa-user {
+    font-size: 1.2rem;
+  }
+
 }
